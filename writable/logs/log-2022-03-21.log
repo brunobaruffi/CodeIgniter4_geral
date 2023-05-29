@@ -1,0 +1,132 @@
+CRITICAL - 2022-03-21 19:38:00 --> Undefined variable $_SESSION
+#0 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8\\htdo...', 8)
+#1 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#2 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#3 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 19:51:51 --> Call to a member function funcao_teste() on null
+#0 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#1 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#2 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 19:53:03 --> Undefined variable $db
+#0 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8\\htdo...', 18)
+#1 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#2 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#3 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 19:53:10 --> syntax error, unexpected token "=", expecting "," or ";"
+#0 C:\xampp_8\htdocs\CI\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_8\\htdo...')
+#1 C:\xampp_8\htdocs\CI\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\xampp_8\htdocs\CI\system\Config\Factories.php(136): class_exists('App\\Models\\mode...')
+#4 C:\xampp_8\htdocs\CI\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'model_home')
+#5 C:\xampp_8\htdocs\CI\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(9): model('model_home')
+#7 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#8 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#9 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-21 19:54:01 --> Undefined variable $db
+#0 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp_8\\htdo...', 18)
+#1 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#2 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#3 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 19:54:19 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:20 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:20 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:21 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:21 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:21 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:21 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:21 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 19:55:21 --> You must set the database table to be used with your query.
+#0 C:\xampp_8\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp_8\htdocs\CI\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp_8\htdocs\CI\app\Models\Model_home.php(19): CodeIgniter\Model->__get('query')
+#3 C:\xampp_8\htdocs\CI\app\Controllers\TesteSaida.php(10): App\Models\model_home->funcao_teste()
+#4 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 C:\xampp_8\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_8\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

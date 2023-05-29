@@ -1,0 +1,83 @@
+CRITICAL - 2023-05-22 21:18:54 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\CI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\CI\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(16): CodeIgniter\Model->__call('funcao_teste', Array)
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#4 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 21:19:08 --> Undefined variable $retorno
+#0 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 17)
+#1 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#2 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-22 21:19:16 --> Undefined variable $data
+#0 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 18)
+#1 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#2 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-22 21:19:28 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\xampp\htdocs\CI\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\CI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\CI\system\Common.php(1089): CodeIgniter\View\View->render('teste', Array, true)
+#3 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(19): view('teste', Array)
+#4 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#6 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-22 21:41:10 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\CI\system\Model.php on line 184
+#0 D:\xampp\htdocs\CI\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\xampp\htdocs\CI\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(16): CodeIgniter\BaseModel->findAll()
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#4 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 21:41:53 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\CI\system\Model.php on line 184
+#0 D:\xampp\htdocs\CI\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\xampp\htdocs\CI\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(16): CodeIgniter\BaseModel->findAll()
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#4 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 21:42:13 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\CI\system\Model.php on line 184
+#0 D:\xampp\htdocs\CI\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\xampp\htdocs\CI\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(16): CodeIgniter\BaseModel->findAll()
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#4 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 21:42:15 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\CI\system\Model.php on line 184
+#0 D:\xampp\htdocs\CI\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\xampp\htdocs\CI\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(16): CodeIgniter\BaseModel->findAll()
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#4 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#5 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-22 21:42:51 --> Undefined variable $x
+#0 D:\xampp\htdocs\CI\app\Controllers\TesteSaida.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 17)
+#1 D:\xampp\htdocs\CI\system\CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#2 D:\xampp\htdocs\CI\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-22 21:51:59 --> syntax error, unexpected variable "$a"
+#0 D:\xampp\htdocs\CI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('TesteSaida')
+#1 D:\xampp\htdocs\CI\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('TesteSaida')
+#2 D:\xampp\htdocs\CI\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CI\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

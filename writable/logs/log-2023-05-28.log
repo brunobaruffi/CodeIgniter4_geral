@@ -1,0 +1,16 @@
+CRITICAL - 2023-05-28 19:29:25 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\xampp\htdocs\CodeIgniter4_geral\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CodeIgniter4_geral\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\CodeIgniter4_geral\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\CodeIgniter4_geral\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\CodeIgniter4_geral\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CodeIgniter4_geral\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-28 19:29:32 --> Undefined variable $baseURL
+#0 D:\xampp\htdocs\CodeIgniter4_geral\app\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 9)
+#1 D:\xampp\htdocs\CodeIgniter4_geral\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\CodeIgniter4_geral\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\CodeIgniter4_geral\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CodeIgniter4_geral\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

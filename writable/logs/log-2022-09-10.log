@@ -1,0 +1,18 @@
+CRITICAL - 2022-09-10 16:55:46 --> Call to a member function funcao_teste() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 16:59:30 --> Call to a member function funcao_teste() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 17:21:39 --> Call to a member function funcao_teste() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(832): App\Controllers\TesteSaida->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteSaida))
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
